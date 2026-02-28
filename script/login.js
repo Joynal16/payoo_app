@@ -17,7 +17,7 @@ document.getElementById('login-btn')
 
     if(numberSave === '01234567890' && pinSave === '1234'){
         alert('Login Successfully');
-        window.location.assign('/home.html');
+        window.location.assign('/payoo_app/home.html');
     }else{
         alert('failed login');
     }
